@@ -9,9 +9,11 @@ namespace SpeakDecimalNumber.ConcreteExpressions
             return "khong";
         }
 
-        public override string One()
+        public override string One(int prevDigit)
         {
-            return "mot";
+            if (prevDigit == 1 || prevDigit == -1)
+                return "mot";
+            return "mo't";
         }
 
         public override string Two()
@@ -29,8 +31,10 @@ namespace SpeakDecimalNumber.ConcreteExpressions
             return "bon";
         }
 
-        public override string Five()
+        public override string Five(int prevDigit)
         {
+            if (prevDigit != -1)
+                return "lam";
             return "nam";
         }
 

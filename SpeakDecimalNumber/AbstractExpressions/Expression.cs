@@ -23,7 +23,7 @@ namespace SpeakDecimalNumber.AbstractExpressions
                     context.Output += Zero() + " ";
                     break;
                 case 1:
-                    context.Output += One() + " ";
+                    context.Output += One(context.PrevDigit) + " ";
                     break;
                 case 2:
                     context.Output += Two() + " ";
@@ -35,7 +35,7 @@ namespace SpeakDecimalNumber.AbstractExpressions
                     context.Output += Four() + " ";
                     break;
                 case 5:
-                    context.Output += Five() + " ";
+                    context.Output += Five(context.PrevDigit) + " ";
                     break;
                 case 6:
                     context.Output += Six() + " ";
@@ -64,11 +64,11 @@ namespace SpeakDecimalNumber.AbstractExpressions
         }
 
         public abstract string Zero();
-        public abstract string One();
+        public abstract string One(int prevDigit);
         public abstract string Two();
         public abstract string Three();
         public abstract string Four();
-        public abstract string Five();
+        public abstract string Five(int prevDigit);
         public abstract string Six();
         public abstract string Seven();
         public abstract string Eight();

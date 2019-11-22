@@ -9,7 +9,7 @@ namespace SpeakDecimalNumber.ConcreteExpressions
             return "";
         }
 
-        public override string One()
+        public override string One(int prevDigit)
         {
             return "muoi";
         }
@@ -29,7 +29,7 @@ namespace SpeakDecimalNumber.ConcreteExpressions
             return "bon muoi";
         }
 
-        public override string Five()
+        public override string Five(int prevDigit)
         {
             return "nam muoi";
         }

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RomanNumeralsConvertor.AbstractExpressions.Expression">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAABAAAAEBAAAAAAAAAgAAIA=</HashCode>
+      <FileName>AbstractExpressions\Expression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RomanNumeralsConvertor.ConcreteExpressions.HundredExpression">
+    <Position X="0.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAEBAAAAAAAAAgAAIA=</HashCode>
+      <FileName>ConcreteExpressions\HundredExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RomanNumeralsConvertor.ConcreteExpressions.OneExpression">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAEBAAAAAAAAAgAAIA=</HashCode>
+      <FileName>ConcreteExpressions\OneExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RomanNumeralsConvertor.ConcreteExpressions.TenExpression">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAEBAAAAAAAAAgAAIA=</HashCode>
+      <FileName>ConcreteExpressions\TenExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RomanNumeralsConvertor.ConcreteExpressions.ThousandExpression">
+    <Position X="6" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAEBAAAAAAAAAgAAIA=</HashCode>
+      <FileName>ConcreteExpressions\ThousandExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RomanNumeralsConvertor.Contexts.Context">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contexts\Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
